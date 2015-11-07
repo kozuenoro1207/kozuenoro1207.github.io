@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:0;
+    margin:0;
+    font-size:11px;
+    background-image:url("bg.png");
+} 
+header, .container-fluid{
+    font-family:"BokutachinoGothic","Arial Unicode MS","Nanum Gothic","Impact","Hiragino Maru Gothic Pro";
+    color:#aaaaaa;
+}
+
+li{
+    list-style:none;
+}
+
+header{
+    background-color:#f0e9ff;
+    opacity:0.8;
+    width:100%;
+    height:60px;    
+}
+
+#logo{
+    margin:0;
+    padding:13px 0px;
+    text-align:center;
+    letter-spacing:0.15em;
+}
+
+#logo a{
+    color:#FF1458;
+    text-decolation:none;
+}
+
+.sidebar,.portfolio{
+    display:inline-block;
+    width:100%;
+}
+
+.out_border{    
+    background-color:rgba(255,255,255,0.6);
+    border:2px dotted gray;
+    margin:20px 0px;
+}
+
+.out_border h2{
+    color:#606060;
+}
+
+#pf-head{
+    font-size:30px;
+    padding-left:20px;
+}
+
+#description{
+    width:100%;
+    display:inline-block;
+    padding:0 10px;
+}
+
+#about-desc,#link-desc{    
+    font-size:12px;
+    padding-left:5px;
+}
+
+#about-desc h2{
+    font-size:14px;
+    font-weight:bold;
+}
+
+#link-desc p a{
+    color:#606060;
+    font-size:14px;
+    font-weight:bold;
+}
+
+#portrait{
+    width:100%;
+    height:100%;    
+    text-align:center;
+}
+#portrait a img
+{
+    opacity:0.9;
+    width:200px;
+    height:200px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:100%;
+    border: 3px solid #aaaaaa;
+}
+
+#about-click, #link-click{
+    color:#FF1458;
+    font-size:16px;
+    font-weight:bold;
+	     
+}
+
+.sidebar ul{
+    text-align:left;
+
+}
+
+#work-list{
+    padding:50px 30px;
+}
+
+.border{
+    background-color:#ffffff;
+    border:2px dotted #FF1654;
+    text-align:center;
+}
+
+.border a{
+    position:relative;
+}
+.border a h3{
+    z-index:10;
+    position:absolute;
+    display:inline-block;
+    top:-10px;
+    left:20px;
+    right:20px;
+    color:#ffffff;    
+    font-size:18px;
+    width:80%;
+    height:150%;    
+    background-color:rgba(96,96,96,0.6);
+    border-radius:20px;
+}
+.border a:hover h3{
+  opacity: 1;
+}
+
+.border a:hover h3:hover{
+    color:#FF1458;
+}
+
+.border a img{
+    margin-top:20px;
+    width:60%;
+}
+
+.border a:hover img{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+
+}
+
+
